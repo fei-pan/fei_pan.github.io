@@ -1,3 +1,22 @@
+<style TYPE="text/css">
+code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
+</style>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'] // removed 'code' entry
+    }
+});
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
 ## 梦想总是要有的，万一实现了呢？
 
 ### About
@@ -60,3 +79,11 @@ For reaching me, just drop me an email: fei.pan # my.cityu.edu.hk
 - Mandarin Chinese - native
 - English - professional
 - French - professional
+
+### Miscellaneous
+- Mega fan of skiing
+- Huge fan of tennis
+- Large fan of LaTeX $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$
+- Big fan of MIUI
+- Medium fan of typography
+- To be continued
