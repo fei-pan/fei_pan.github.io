@@ -38,7 +38,7 @@ For reaching me, just drop me an email: fei.pan # my.cityu.edu.hk
 
 - September 2011 to May 2013
 
-  Ecole Centrale de Lille, France <br/> *Diplôme d'ingénieur (Master of Engineering)*
+  Ecole Centrale de Lille, France <br/> *Diplôme d'ingénieur (Master of Engineering)*       [中法4+4](http://www.education-ambchine.org/publish/portal116/tab5722/info104119.htm)
 
 - September 2009 to July 2011
 
