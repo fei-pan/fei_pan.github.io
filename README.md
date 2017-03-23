@@ -30,30 +30,30 @@ For reaching me, just drop me an email: fei.pan # my.cityu.edu.hk
 
 - September 2016 to present
 
-  Department of Mechanical and Biomedical Engineering, City University of Hong Kong, HKSAR
+  [Department of Mechanical and Biomedical Engineering](http://www.cityu.edu.hk/mbe/), [City University of Hong Kong](http://www.cityu.edu.hk/), HKSAR
 
 - September 2013 to June 2016
 
-  School of Aerospace, Xi'an Jiaotong University, Mainland China <br/> *Master of Engineering, Aircraft Design*
+  [School of Aerospace](http://sae.xjtu.edu.cn/), [Xi'an Jiaotong University](http://www.xjtu.edu.cn/index.htm), Mainland China <br/> *Master of Engineering, Aircraft Design*
 
 - September 2011 to May 2013
 
-  Ecole Centrale de Lille, France through [中法4+4](http://www.education-ambchine.org/publish/portal116/tab5722/info104119.htm)
+  [Ecole Centrale de Lille](http://www.ec-lille.fr/fr/index.html), France through [中法4+4](http://www.education-ambchine.org/publish/portal116/tab5722/info104119.htm)
 <br/> *Diplôme d'ingénieur (Master of Engineering)*
   
 - September 2009 to July 2011
 
-  School of Aerospace, Xi'an Jiaotong University, Mainland China <br/> *Bachelor of Engineering, Aircraft Design & Engineering*
+  [School of Aerospace](http://sae.xjtu.edu.cn/), [Xi'an Jiaotong University](http://www.xjtu.edu.cn/index.htm), Mainland China <br/> *Bachelor of Engineering, Aircraft Design & Engineering*
 
 #### Work Experiences
 
 - May 2013 to August 2013
 
-  Adeo Group, France <br/> J2EE Web Application Development Trainee
+  [Adeo Group](http://www.adeo.com/en/index), France <br/> J2EE Web Application Development Trainee
 
 - January 2012 to February 2012
 
-  Log_Vad, France <br/> Logistic Trainee
+  [Log_Vad](http://www.logvad.com/), France <br/> Logistic Trainee
 
 #### Languages
 
