@@ -24,7 +24,7 @@ For reaching me, just drop me an email: fei.pan # my.cityu.edu.hk
 
       Studied the wrinkling phenomena of thin films on soft substrates
 
-### CV
+### Curriculum vitae
 
 #### Education
 
