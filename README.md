@@ -1,4 +1,4 @@
-## 梦想总是要有的，万一实现了呢？
+## Blablablabla...
 
 ### About
 
@@ -30,7 +30,7 @@ For reaching me, just drop me an email: fei.pan # my.cityu.edu.hk
 
 - September 2016 to present
 
-  [Department of Mechanical and Biomedical Engineering](http://www.cityu.edu.hk/mbe/), [City University of Hong Kong](http://www.cityu.edu.hk/), HKSAR
+  [Mechanical and Biomedical Engineering](http://www.cityu.edu.hk/mbe/), [City University of Hong Kong](http://www.cityu.edu.hk/), HKSAR
 
 - September 2013 to June 2016
 
@@ -43,7 +43,7 @@ For reaching me, just drop me an email: fei.pan # my.cityu.edu.hk
   
 - September 2009 to July 2011
 
-  [School of Aerospace](http://sae.xjtu.edu.cn/), [Xi'an Jiaotong University](http://www.xjtu.edu.cn/index.htm), Mainland China <br/> *Bachelor of Engineering, Aircraft Design & Engineering*
+  School of Aerospace, Xi'an Jiaotong University, Mainland China <br/> *Bachelor of Engineering, Aircraft Design & Engineering*
 
 #### Work Experiences
 
