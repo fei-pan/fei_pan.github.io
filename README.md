@@ -2,7 +2,7 @@
 
 ### About
 
-Hi there, my name is PAN Fei (潘飞), a PhD student at City University of Hong Kong. 
+Hi there, my name is Fei PAN (潘飞), a PhD student at City University of Hong Kong. 
 
 This README.md will serve as my personal webpage because I am leaving most redundant social networks such as LinkedIn, Twitter, Weibo, etc. but I still need someplace to tell people how to find me and what happedned to me recently.
 
@@ -10,7 +10,7 @@ For reaching me, just drop me an email: fei.pan # my.cityu.edu.hk
 
 ### Projects
 
-+ In Progess: sorry, I am not ready to say anything about my research projects
++ In Progess: Microfluidics and Robotic Cell Injection
 + Past work
     + From January 2017 to March 2017
 
