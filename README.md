@@ -2,11 +2,11 @@
 
 ### About
 
-Hi there, my name is Fei PAN (潘飞), a PhD student at City University of Hong Kong. 
+Hi there, my name is PAN Fei (潘飞), a PhD student at City University of Hong Kong.
 
-This README.md will serve as my personal webpage because I am leaving most redundant social networks such as LinkedIn, Twitter, Weibo, etc. but I still need someplace to tell people how to find me and what happedned to me recently.
+This README.md will serve as my personal webpage because I am leaving most redundant social networks such as Facebook, Twitter, Weibo, etc. but I still need someplace to tell people how to find me and what happedned to me recently.
 
-For reaching me, just drop me an email: fei.pan # my.cityu.edu.hk
+For reaching me, just drop me an email: fei.pan@my.cityu.edu.hk
 
 ### Projects
 
@@ -18,11 +18,7 @@ For reaching me, just drop me an email: fei.pan # my.cityu.edu.hk
 
     + From November 2014 to April 2016
 
-      Studied how to perform the parametric modeling and optimization of soft structures using Isight, Abaqus and Catia. Intermediate configuration language is Python among these software.
-
-    + From November 2013 to July 2014
-
-      Studied the wrinkling phenomena of thin films on soft substrates
+      Learned the parametric modeling and optimization of soft structures using Isight, Abaqus and Catia with Python.
 
 ### Curriculum vitae
 
