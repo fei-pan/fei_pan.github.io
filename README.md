@@ -61,7 +61,7 @@ For reaching me, just drop me an email: fei.pan@my.cityu.edu.hk
 ### Miscellaneous
 - Mega fan of skiing
 - Huge fan of tennis
-- Large fan of LaTeX
+- Large fan of LaTeX (refer to [ctex](https://ctan.org/pkg/ctex) for Chinese in LaTeX and [AxMath](http://amyxun.com/) for typing beautiful math formulas in Word)
 - Big fan of MIUI
 - Medium fan of typography
 - To be continued
