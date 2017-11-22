@@ -65,3 +65,6 @@ For reaching me, just drop me an email: fei.pan@my.cityu.edu.hk
 - Big fan of MIUI
 - Medium fan of typography
 - To be continued
+
+
+Last update: November 22, 2017
