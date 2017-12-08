@@ -83,7 +83,7 @@ For reaching me, just drop me an email: fei.pan@my.cityu.edu.hk
 
 - For interesting mathematics <br/>
 [1]	J.-M. Ferrard, *Mathématiques en MPSI*. Paris: Lycée Chaptal, 2015.
-<br/> [2]	梅加强, 《数学分析讲义》. 南京大学, 21-1月-2015.
-<br/> [3]	欧阳毅, 《代数学基础》. 中国科学技术大学, 13-2月-2013.
+<br/> [2]	梅加强, 数学分析讲义. 南京大学数学系, 2015.
+<br/> [3]	欧阳毅, 代数学基础. 中国科学技术大学数学科学学院, 2013.
 
 Last update: December 08, 2017
