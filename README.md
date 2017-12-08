@@ -76,10 +76,10 @@ For reaching me, just drop me an email: fei.pan@my.cityu.edu.hk
 <br/> [6]	王俊民和江理平, 弹性力学复习及解题指导. 上海: 同济大学出版社, 2003.
 
 - Pour la mécanique du solide en Français <br/>
-[1]	J. Salençon, *Milieux Curvilignes*, vol. 3, 3 vol. Palaiseau: Éditions de l’École polytechnique, 2016.
-<br/> [2]	J. Salençon, *Thermoélasticité*, vol. 2, 3 vol. Palaiseau: Éditions de l’École polytechnique, 2007.
+[1]	J. Salençon, *Milieux Curvilignes*, vol. 3, 3 vol. Palaiseau: Éditions de l’École Polytechnique, 2016.
+<br/> [2]	J. Salençon, *Thermoélasticité*, vol. 2, 3 vol. Palaiseau: Éditions de l’École Polytechnique, 2007.
 <br/> [3]	R. Temam and A. Miranville, *Mathematical Modeling in Continuum Mechanics*. Cambridge: Cambridge University Press, 2005.
-<br/> [4]	J. Salençon, *Concepts généraux*, vol. 1, 3 vol. Palaiseau: Éditions de l’École polytechnique, 2005.
+<br/> [4]	J. Salençon, *Concepts généraux*, vol. 1, 3 vol. Palaiseau: Éditions de l’École Polytechnique, 2005.
 
 - For interesting mathematics <br/>
 [1]	J.-M. Ferrard, *Mathématiques en MPSI*. Paris: Lycée Chaptal, 2015.
