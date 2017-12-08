@@ -66,5 +66,24 @@ For reaching me, just drop me an email: fei.pan@my.cityu.edu.hk
 - Medium fan of typography
 - To be continued
 
+### Literature recommended
+- For solid mechanics in Chinese and English 
+<br/> [1]	刘川, 理论力学, 1.3. 北京大学物理学院, 2014.
+<br/> [2]	R. Abeyaratne, *Continuum Mechanics*, vol. 2, 3 vols. Cambridge: MIT, 2012.
+<br/> [3]	王敏中, 王炜和武际可, 弹性力学教程(修订版). 北京: 北京大学出版社, 2011.
+<br/> [4]	王俊民, 唐寿高和江理平, 板壳力学复习与解题指导. 上海: 同济大学出版社, 2007.
+<br/> [5]	R. Abeyaratne, *A Brief Review of Some Mathematical Preliminaries*, vol. 1, 3 vols. Cambridge: MIT, 2006.
+<br/> [6]	王俊民和江理平, 弹性力学复习及解题指导. 上海: 同济大学出版社, 2003.
 
-Last update: November 22, 2017
+- Pour la mécanique du solide en Français <br/>
+[1]	J. Salençon, *Milieux Curvilignes*, vol. 3, 3 vol. Palaiseau: Éditions de l’École polytechnique, 2016.
+<br/> [2]	J. Salençon, *Thermoélasticité*, vol. 2, 3 vol. Palaiseau: Éditions de l’École polytechnique, 2007.
+<br/> [3]	R. Temam and A. Miranville, *Mathematical Modeling in Continuum Mechanics*. Cambridge: Cambridge University Press, 2005.
+<br/> [4]	J. Salençon, *Concepts généraux*, vol. 1, 3 vol. Palaiseau: Éditions de l’École polytechnique, 2005.
+
+- For interesting mathematics <br/>
+[1]	J.-M. Ferrard, *Mathématiques en MPSI*. Paris: Lycée Chaptal, 2015.
+<br/> [2]	梅加强, 《数学分析讲义》. 南京大学数学系, 21-1月-2015.
+<br/> [3]	欧阳毅, 《代数学基础》. 中国科学技术大学, 13-2月-2013.
+
+Last update: December 08, 2017
