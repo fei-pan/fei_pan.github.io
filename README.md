@@ -34,7 +34,7 @@ For reaching me, just drop me an email: fei.pan@my.cityu.edu.hk
 
 - September 2011 to May 2013
 
-  [Ecole Centrale de Lille](http://www.ec-lille.fr/fr/index.html), France through [中法4+4](http://www.education-ambchine.org/publish/portal116/tab5722/info104119.htm)
+  [Ecole Centrale de Lille](http://http://centralelille.fr/), France through [中法4+4](http://www.education-ambchine.org/publish/portal116/tab5722/info104119.htm)
 <br/> *Diplôme d'ingénieur (Master of Engineering)*
   
 - September 2009 to July 2011
@@ -66,4 +66,4 @@ For reaching me, just drop me an email: fei.pan@my.cityu.edu.hk
 - Medium fan of typography
 - To be continued
 
-Last update: December 11, 2017
+Last update: Feb 06, 2018
