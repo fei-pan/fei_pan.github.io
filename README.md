@@ -67,9 +67,3 @@ For reaching me, just drop me an email: fei.pan@my.cityu.edu.hk
 - To be continued
 
 Last update: Feb 06, 2018
-
-[comment]: <> (This is a comment, it will not be included)
-
-[comment]: <> (If you want to embed images, this is how you do it:)
-
-[comment]: <> (<img src="https://octodex.github.com/images/yaktocat.png" width="100">)
