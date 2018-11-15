@@ -14,7 +14,7 @@ For reaching me, just drop me an email: fei.pan@my.cityu.edu.hk
 + Past work
     + From January 2017 to March 2017
 
-      Adapted the textbook *Mécanique des Mécanismes* from Ecole Centrale de Lille to a Chinese version, which can be found [here](https://github.com/fei-pan/MDM_Chinese)
+      Adapted the textbook *Mécanique des Mécanismes* from Ecole Centrale de Lille to Chinese, which can be found [here](https://github.com/fei-pan/MDM_Chinese)
 
     + From November 2014 to April 2016
 
@@ -26,7 +26,7 @@ For reaching me, just drop me an email: fei.pan@my.cityu.edu.hk
 
 - September 2016 to present
 
-  [Mechanical and Biomedical Engineering](http://www.cityu.edu.hk/mbe/), [City University of Hong Kong](http://www.cityu.edu.hk/), HKSAR
+  [Department of Biomedical Engineering](http://www.cityu.edu.hk/bme/), [City University of Hong Kong](http://www.cityu.edu.hk/), HKSAR
 
 - September 2013 to June 2016
 
