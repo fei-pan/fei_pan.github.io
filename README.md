@@ -6,7 +6,7 @@ Hi there, my name is PAN Fei (潘飞), a PhD student at City University of Hong 
 
 This README.md will serve as my personal webpage because I am leaving most redundant social networks such as Facebook, Twitter, Weibo, etc. but I still need someplace to tell people how to find me and what happedned to me recently.
 
-For reaching me, just drop me an email: fei.pan@my.cityu.edu.hk
+For reaching me, just drop me an email: fei.pan@my.cityu.edu.hk (OpenPGP public key is here)
 
 ### Projects
 
@@ -57,13 +57,7 @@ For reaching me, just drop me an email: fei.pan@my.cityu.edu.hk
 - English - professional
 - French - professional
 
-
 ### Miscellaneous
-- Mega fan of skiing
-- Huge fan of tennis
-- Large fan of LaTeX (refer to [ctex](https://ctan.org/pkg/ctex) for Chinese in LaTeX and [AxMath](http://amyxun.com/) for typing beautiful math formulas in Word)
-- Big fan of MIUI
-- Medium fan of typography
-- To be continued
 
-Last update: Nov 15, 2018
+
+Last update: Dec 20, 2018
