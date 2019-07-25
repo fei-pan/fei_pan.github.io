@@ -34,7 +34,7 @@ For reaching me, just drop me an email: fei.pan@my.cityu.edu.hk (OpenPGP public 
 
 - September 2011 to May 2013
 
-  [Ecole Centrale de Lille](http://centralelille.fr/), France through 中法4+4
+  [Ecole Centrale de Lille](http://centralelille.fr/), France through [中法4+4](http://france.lxgz.org.cn/publish/portal116/tab5722/info104119.htm)
 <br/> *Diplôme d'ingénieur (Master of Engineering)*
   
 - September 2009 to July 2011
