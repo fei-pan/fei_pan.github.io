@@ -8,4 +8,4 @@ This README.md will serve as my personal webpage because I am leaving most redun
 
 For reaching me, just drop me an email: fei.pan@my.cityu.edu.hk (OpenPGP public key is [here](https://github.com/fei-pan/fei_pan.github.io/blob/master/publickey.fei.pan%40my.cityu.edu.hk.asc))
 
-For other informations about my research, please check my CV
+For other informations about my research, please check my [CV](https://github.com/fei-pan/fei_pan.github.io/blob/master/CV_Eng_Simp.pdf)
