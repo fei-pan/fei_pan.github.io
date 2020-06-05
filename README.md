@@ -6,4 +6,4 @@ Thi is my personal webpage. I am leaving Facebook, Twitter, Weibo, etc., but sti
 
 For reaching me, just drop me an email: fei.pan@my.cityu.edu.hk (OpenPGP public key is [here](https://github.com/fei-pan/fei_pan.github.io/blob/master/publickey.fei.pan%40my.cityu.edu.hk.asc))
 
-For other informations about my research, please check my [CV](https://github.com/fei-pan/fei_pan.github.io/raw/master/CV_Eng_Simp.pdf)
+For other informations about my research, please check my [CV](https://raw.githubusercontent.com/fei-pan/fei_pan.github.io/master/CV_Eng_Simp.pdf)
