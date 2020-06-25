@@ -8,4 +8,4 @@ For reaching me, just drop me an email: fei.pan@my.cityu.edu.hk (OpenPGP public 
 
 For other informations about my research, please check my [CV](https://raw.githubusercontent.com/fei-pan/fei_pan.github.io/master/CV_Eng_Simp.pdf)
 
-I made a collection of tips for LaTeX typesetting in Chinese language, please check the [link](https://www.overleaf.com/read/rjjrqfthgzkc) 
+I made a collection of tips for LaTeX typesetting in Chinese language, please check the [link](https://www.overleaf.com/read/rjjrqfthgzkc) and the [link](https://www.overleaf.com/read/gxmhsftsyzbh)
