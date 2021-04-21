@@ -4,7 +4,7 @@ Hi there, my name is PAN Fei (潘飞), a postdoctoral researcher at the Hong Kon
 
 This is my personal webpage. I am leaving Facebook, Twitter, Weibo, etc., but still need someplace to tell people how to find me and what happedned to me recently.
 
-For reaching me, just drop me an email: fei.pan@my.cityu.edu.hk (OpenPGP public key is [here](https://raw.githubusercontent.com/fei-pan/fei_pan.github.io/master/publickey.fei.pan%40my.cityu.edu.hk.asc))
+For reaching me, just drop me an email: fei.pan@my.cityu.edu.hk
 
 For other informations about my research, please check my [CV](https://raw.githubusercontent.com/fei-pan/fei_pan.github.io/master/FeiPAN_CV.pdf)
 
