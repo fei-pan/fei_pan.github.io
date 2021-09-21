@@ -1,1 +1,1 @@
-Please visit https://starfarming.top/
+Please visit https://starfarming.top/.
