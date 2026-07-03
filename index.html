@@ -6,150 +6,133 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr. PAN Fei's personal webpage</title>
 
-    <!-- 计算器专用样式（不影响主页其他部分） -->
     <style>
-      /* ---------- Calculator styles (scoped) ---------- */
-      .calc-container {
-        max-width: 700px;
-        width: 100%;
-        background: #ffffff;
-        padding: 30px 25px 35px;
-        border-radius: 24px;
-        box-shadow: 0 12px 40px rgba(0,0,0,0.06);
-        border: 1px solid #e9edf4;
-        margin-top: 20px;
-      }
-      .calc-container h2 {
-        font-size: 26px;
-        font-weight: 600;
-        color: #0b1a2a;
-        margin-bottom: 4px;
-      }
-      .calc-container .sub {
-        color: #6b7a8d;
-        font-size: 14px;
-        margin-bottom: 28px;
-        border-bottom: 1px solid #eef2f7;
-        padding-bottom: 16px;
-      }
-      .calc-container .field {
-        margin-bottom: 18px;
-      }
-      .calc-container label {
-        display: block;
-        font-size: 14px;
-        font-weight: 500;
-        color: #1e2f3f;
-        margin-bottom: 5px;
-      }
-      .calc-container .input-row {
-        display: flex;
-        align-items: center;
-        background: #f8fafc;
-        border: 1px solid #dce3ec;
-        border-radius: 12px;
-        padding: 0 14px;
-        transition: 0.2s;
-      }
-      .calc-container .input-row:focus-within {
-        border-color: #2d6ff7;
-        box-shadow: 0 0 0 3px rgba(45, 111, 247, 0.12);
-        background: #fff;
-      }
-      .calc-container .input-row span {
-        color: #6b7a8d;
-        font-weight: 500;
-        font-size: 15px;
-        margin-right: 8px;
-      }
-      .calc-container .input-row input,
-      .calc-container .input-row select {
-        width: 100%;
-        padding: 11px 0;
-        border: none;
-        background: transparent;
-        font-size: 16px;
-        color: #0b1a2a;
-        outline: none;
-        font-weight: 500;
-      }
-      .calc-container .input-row input[type="number"] {
-        -moz-appearance: textfield;
-      }
-      .calc-container .input-row input::-webkit-outer-spin-button,
-      .calc-container .input-row input::-webkit-inner-spin-button {
-        -webkit-appearance: none;
-        margin: 0;
-      }
-      .calc-container .input-row select {
-        cursor: pointer;
-      }
-      .calc-container .hint {
-        font-size: 12px;
-        color: #8e9db1;
-        margin-top: 4px;
-        padding-left: 4px;
-      }
-      .calc-container .btn {
-        width: 100%;
-        padding: 14px;
-        background: #0b1a2a;
-        color: white;
-        border: none;
-        border-radius: 12px;
-        font-size: 17px;
-        font-weight: 600;
-        cursor: pointer;
-        transition: 0.2s;
-        margin-top: 10px;
-      }
-      .calc-container .btn:hover {
-        background: #1e3347;
-        transform: translateY(-2px);
-        box-shadow: 0 8px 20px rgba(11, 26, 42, 0.15);
-      }
-      .calc-container .btn:active { transform: translateY(0); }
+    /* ---------- 极简紧凑：虚线框紧贴内容 ---------- */
+    .calc-container {
+      border: 1px dashed #333;
+      padding: 8px 12px;
+      margin: 6px 0;
+      max-width: 100%;
+      box-sizing: border-box;
+    }
 
-      .calc-container .result-box {
-        margin-top: 28px;
-        background: #f8fafc;
-        border-radius: 16px;
-        padding: 20px 22px;
-        border: 1px solid #e9edf4;
-        display: none;
-      }
-      .calc-container .result-box.show { display: block; animation: fadeIn 0.3s; }
-      @keyframes fadeIn {
-        from { opacity: 0; transform: translateY(8px); }
-        to { opacity: 1; transform: translateY(0); }
-      }
-      .calc-container .result-item {
-        display: flex;
-        justify-content: space-between;
-        padding: 10px 0;
-        border-bottom: 1px solid #e9edf4;
-      }
-      .calc-container .result-item:last-child { border-bottom: none; }
-      .calc-container .result-item .label {
-        color: #3a4e62;
-        font-size: 15px;
-      }
-      .calc-container .result-item .value {
-        font-weight: 700;
-        font-size: 17px;
-        color: #0b1a2a;
-        font-variant-numeric: tabular-nums;
-      }
-      .calc-container .result-item .value.highlight {
-        color: #2d6ff7;
-        font-size: 20px;
-      }
-      .calc-container .footnote {
-        margin-top: 14px;
-        font-size: 13px;
-        color: #8e9db1;
-        text-align: center;
-      }
+    /* 大部分元素继承页面字体 */
+    .calc-container,
+    .calc-container * {
+      font-size: inherit;
+      font-family: inherit;
+    }
+
+    /* 唯独按钮和下拉框使用 sans-serif */
+    .calc-container .btn,
+    .calc-container select {
+      font-family: sans-serif;
+    }
+
+    .calc-container h2 {
+      font-weight: 600;
+      margin: 0 0 2px 0;
+    }
+    .calc-container .sub {
+      color: #555;
+      margin-bottom: 8px;
+      padding-bottom: 4px;
+      border-bottom: 1px solid #eee;
+    }
+
+    .calc-container .field {
+      margin-bottom: 6px;
+    }
+    .calc-container label {
+      font-weight: 500;
+      display: block;
+      margin-bottom: 2px;
+    }
+    .calc-container .input-row {
+      display: flex;
+      align-items: center;
+      border: 1px solid #ccc;
+      padding: 0 8px;
+      background: #fafafa;
+    }
+    .calc-container .input-row:focus-within {
+      border-color: #888;
+      background: #fff;
+    }
+    .calc-container .input-row span {
+      color: #555;
+      margin-right: 6px;
+    }
+    .calc-container .input-row input,
+    .calc-container .input-row select {
+      width: 100%;
+      padding: 4px 0;
+      border: none;
+      background: transparent;
+      outline: none;
+      font: inherit;
+    }
+    /* 确保 select 也应用 sans-serif（会被上面的 .calc-container select 覆盖） */
+    .calc-container .input-row select {
+      font-family: sans-serif;
+    }
+    .calc-container .input-row input[type="number"] {
+      -moz-appearance: textfield;
+    }
+    .calc-container .input-row input::-webkit-outer-spin-button,
+    .calc-container .input-row input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    .calc-container .hint {
+      color: #888;
+      font-size: 0.9em;
+      margin-top: 1px;
+    }
+
+    .calc-container .btn {
+      width: 100%;
+      padding: 6px;
+      background: #f0f0f0;
+      border: 1px solid #aaa;
+      font-weight: 600;
+      cursor: pointer;
+      margin-top: 6px;
+      font-family: sans-serif; /* 显式声明，确保生效 */
+    }
+    .calc-container .btn:hover {
+      background: #e0e0e0;
+    }
+
+    .calc-container .result-box {
+      margin-top: 8px;
+      padding: 6px 0;
+      border-top: 1px solid #eee;
+      display: none;
+    }
+    .calc-container .result-box.show { display: block; }
+    .calc-container .result-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 2px 0;
+      border-bottom: 1px dotted #ddd;
+    }
+    .calc-container .result-item:last-child { border-bottom: none; }
+    .calc-container .result-item .label {
+      color: #333;
+    }
+    .calc-container .result-item .value {
+      font-weight: 700;
+    }
+    .calc-container .result-item .value.highlight {
+      color: #c00;
+    }
+    .calc-container .footnote {
+      margin-top: 4px;
+      color: #666;
+      text-align: center;
+      font-size: 0.9em;
+    }
     </style>
   </head>
 
