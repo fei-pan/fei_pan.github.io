@@ -1,37 +1,363 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="author" content="PAN Fei">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr. PAN Fei's personal webpage</title>
+
+    <!-- 计算器专用样式（不影响主页其他部分） -->
+    <style>
+      /* ---------- Calculator styles (scoped) ---------- */
+      .calc-container {
+        max-width: 700px;
+        width: 100%;
+        background: #ffffff;
+        padding: 30px 25px 35px;
+        border-radius: 24px;
+        box-shadow: 0 12px 40px rgba(0,0,0,0.06);
+        border: 1px solid #e9edf4;
+        margin-top: 20px;
+      }
+      .calc-container h2 {
+        font-size: 26px;
+        font-weight: 600;
+        color: #0b1a2a;
+        margin-bottom: 4px;
+      }
+      .calc-container .sub {
+        color: #6b7a8d;
+        font-size: 14px;
+        margin-bottom: 28px;
+        border-bottom: 1px solid #eef2f7;
+        padding-bottom: 16px;
+      }
+      .calc-container .field {
+        margin-bottom: 18px;
+      }
+      .calc-container label {
+        display: block;
+        font-size: 14px;
+        font-weight: 500;
+        color: #1e2f3f;
+        margin-bottom: 5px;
+      }
+      .calc-container .input-row {
+        display: flex;
+        align-items: center;
+        background: #f8fafc;
+        border: 1px solid #dce3ec;
+        border-radius: 12px;
+        padding: 0 14px;
+        transition: 0.2s;
+      }
+      .calc-container .input-row:focus-within {
+        border-color: #2d6ff7;
+        box-shadow: 0 0 0 3px rgba(45, 111, 247, 0.12);
+        background: #fff;
+      }
+      .calc-container .input-row span {
+        color: #6b7a8d;
+        font-weight: 500;
+        font-size: 15px;
+        margin-right: 8px;
+      }
+      .calc-container .input-row input,
+      .calc-container .input-row select {
+        width: 100%;
+        padding: 11px 0;
+        border: none;
+        background: transparent;
+        font-size: 16px;
+        color: #0b1a2a;
+        outline: none;
+        font-weight: 500;
+      }
+      .calc-container .input-row input[type="number"] {
+        -moz-appearance: textfield;
+      }
+      .calc-container .input-row input::-webkit-outer-spin-button,
+      .calc-container .input-row input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+      .calc-container .input-row select {
+        cursor: pointer;
+      }
+      .calc-container .hint {
+        font-size: 12px;
+        color: #8e9db1;
+        margin-top: 4px;
+        padding-left: 4px;
+      }
+      .calc-container .btn {
+        width: 100%;
+        padding: 14px;
+        background: #0b1a2a;
+        color: white;
+        border: none;
+        border-radius: 12px;
+        font-size: 17px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: 0.2s;
+        margin-top: 10px;
+      }
+      .calc-container .btn:hover {
+        background: #1e3347;
+        transform: translateY(-2px);
+        box-shadow: 0 8px 20px rgba(11, 26, 42, 0.15);
+      }
+      .calc-container .btn:active { transform: translateY(0); }
+
+      .calc-container .result-box {
+        margin-top: 28px;
+        background: #f8fafc;
+        border-radius: 16px;
+        padding: 20px 22px;
+        border: 1px solid #e9edf4;
+        display: none;
+      }
+      .calc-container .result-box.show { display: block; animation: fadeIn 0.3s; }
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(8px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      .calc-container .result-item {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
+        border-bottom: 1px solid #e9edf4;
+      }
+      .calc-container .result-item:last-child { border-bottom: none; }
+      .calc-container .result-item .label {
+        color: #3a4e62;
+        font-size: 15px;
+      }
+      .calc-container .result-item .value {
+        font-weight: 700;
+        font-size: 17px;
+        color: #0b1a2a;
+        font-variant-numeric: tabular-nums;
+      }
+      .calc-container .result-item .value.highlight {
+        color: #2d6ff7;
+        font-size: 20px;
+      }
+      .calc-container .footnote {
+        margin-top: 14px;
+        font-size: 13px;
+        color: #8e9db1;
+        text-align: center;
+      }
+    </style>
   </head>
+
   <body>
     <h1>路漫漫其修远兮，吾将上下而求索</h1>
+
     <h2>About Me</h2>
-    <p>Hi there, my name is PAN Fei (潘飞 / 潘飛). I am an Assistant Professor at Lingnan University, Hong Kong, China. My research focuses on artificial intelligence, robotics, and biomedical engineering. This is my personal webpage where I share updates about my work and interests.</p>
+    <p>Hi there, my name is PAN Fei (潘飛/潘飞). I am an Assistant Professor at Lingnan University, Hong Kong, China. My research focuses on artificial intelligence, robotics, and biomedical engineering. This is my personal webpage where I share updates about my work and interests.</p>
+
     <h2>Publications</h2>
     <p>Please vist <a href="https://scholars.ln.edu.hk/en/persons/fei-pan">Lingnan Scholar</a>, or <a href="https://scholars.cityu.edu.hk/en/persons/fei-pan(a36cc65c-c3b2-4d60-b3f3-395561f706d5).html">CityU Scholar</a>, or <a href="https://www.researchgate.net/profile/Fei-Pan-12">ResearchGate</a>
-    </p>
+	</p>
+
     <h2>Join My Research Team</h2>
     <p>I am seeking self-motivated PhD students. If you are passionate about <strong>research</strong> and eager to contribute to exciting projects, I encourage you to apply. For more details, please check the <a href="LU_PhD_Recruitment_Notice.pdf">recruitment announcement</a>. </p>
+
     <h2>Resources</h2>
     <ul>
       <li>
-          <a href="pLaTeX-ng.pdf">Tutorial</a>: Learn how to use the <a href="https://github.com/clerkma/ptex-ng">pTeX-ng engine</a>, a rising star for typesetting CJK documents.
+        <a href="pLaTeX-ng.pdf">Tutorial</a>: Learn how to use the <a href="https://github.com/clerkma/ptex-ng">pTeX-ng engine</a>, a rising star for typesetting CJK documents.
       </li>
       <li>
-          <a href="https://www.texpage.com/share/52c5f286f483411493715bde3dc4628a">CityU PhD thesis template</a>: This is a PhD thesis template that I adapted for my own thesis. Research postgraduates from Lingnan University are also welcome to use it. I will continue to update it to ensure compliance with LU regulations. Please note that Overleaf has recently reduced its compilation speed for free user, so it's recommended to download the template and compile it on your own computer or use alternative services. To compile the document, run the following commands:
+        <a href="https://www.texpage.com/share/52c5f286f483411493715bde3dc4628a">CityU PhD thesis template</a>: This is a PhD thesis template that I adapted for my own thesis. Research postgraduates from Lingnan University are also welcome to use it. I will continue to update it to ensure compliance with LU regulations. Please note that Overleaf has recently reduced its compilation speed for free user, so it's recommended to download the template and compile it on your own computer or use alternative services. To compile the document, run the following commands:
       </li>
       <ul>
-        <li>xelatex --shell-escape thesis.tex
-        <li>biber thesis
-        <li>makeglossaries thesis
-        <li>xelatex --shell-escape thesis.tex
-        <li>xelatex --shell-escape thesis.tex </li>
-      </ul> These commands will ensure proper compilation of the document, including references and glossaries.
+        <li>xelatex --shell-escape thesis.tex</li>
+        <li>biber thesis</li>
+        <li>makeglossaries thesis</li>
+        <li>xelatex --shell-escape thesis.tex</li>
+        <li>xelatex --shell-escape thesis.tex</li>
+      </ul>
+      These commands will ensure proper compilation of the document, including references and glossaries.
     </ul>
+
+    <!-- ============ 新增 Tools 分区，内含 ITF 计算器 ============ -->
+    <h2>Tools</h2>
+    <div class="calc-container">
+      <h2>ITF Project Budget Calculator</h2>
+      <div class="sub">Dynamic calculation based on three modes &bull; Adjustable sponsorship &amp; admin rates</div>
+
+      <!-- 输入区 -->
+      <div class="field">
+        <label for="mode">Mode</label>
+        <div class="input-row">
+          <span>Mode</span>
+          <select id="mode">
+            <option value="1">Mode 1: Known Pure R&amp;D Cost (C)</option>
+            <option value="2">Mode 2: Known Total Project Cost (T)</option>
+            <option value="3">Mode 3: Known ITF Total Requested</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="amount">Base Amount</label>
+        <div class="input-row">
+          <span>$</span>
+          <input type="number" id="amount" placeholder="Enter amount" step="0.01" value="3010000">
+        </div>
+        <div class="hint">Corresponds to the selected mode</div>
+      </div>
+
+      <div class="field">
+        <label for="sponsor">Industry Sponsorship Rate (%)</label>
+        <div class="input-row">
+          <span>%</span>
+          <input type="number" id="sponsor" placeholder="e.g. 10" step="0.1" value="10">
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="admin">Administrative Overhead Rate (%)</label>
+        <div class="input-row">
+          <span>%</span>
+          <input type="number" id="admin" placeholder="e.g. 15" step="0.1" value="15">
+        </div>
+      </div>
+
+      <button class="btn" onclick="calculate()">Calculate Budget</button>
+
+      <!-- 结果区 -->
+      <div id="result" class="result-box">
+        <div class="result-item">
+          <span class="label">1. Pure R&amp;D Cost (C)</span>
+          <span class="value" id="res1">--</span>
+        </div>
+        <div class="result-item">
+          <span class="label">2. Total Project Cost (T)</span>
+          <span class="value" id="res2">--</span>
+        </div>
+        <div class="result-item">
+          <span class="label">3. Industry Sponsorship (S)</span>
+          <span class="value" id="res3">--</span>
+        </div>
+        <div class="result-item">
+          <span class="label">4. ITF Pure R&amp;D Funding (F_net)</span>
+          <span class="value" id="res4">--</span>
+        </div>
+        <div class="result-item">
+          <span class="label">5. Administrative Overhead (A)</span>
+          <span class="value" id="res5">--</span>
+        </div>
+        <div class="result-item">
+          <span class="label">6. Total ITF Requested</span>
+          <span class="value highlight" id="res6">--</span>
+        </div>
+        <div class="footnote" id="rateInfo">Current parameters: Sponsorship 10% · Admin Rate 15%</div>
+      </div>
+    </div>
+
     <h2>Contact Information</h2> Email: fei.pan@LN.edu.hk <br>Tel: +852 2616 8526</br>
     <p>Feel free to reach out with any questions or inquiries.</p>
+
+    <!-- ============ 计算器 JavaScript ============ -->
+    <script>
+      // Core calculation function (identical logic to Python version)
+      function calculate_itf_dynamic(mode, amount, sponsorship_rate, admin_rate) {
+        let pure_rd_cost, total_project_cost, industry_sponsorship;
+        let net_itf_funding, admin_overhead, itf_total_requested;
+
+        if (mode === 1) {
+          pure_rd_cost = amount;
+          total_project_cost = pure_rd_cost * (1 + admin_rate) / (1 + admin_rate * sponsorship_rate);
+          industry_sponsorship = total_project_cost * sponsorship_rate;
+          net_itf_funding = pure_rd_cost - industry_sponsorship;
+          admin_overhead = net_itf_funding * admin_rate;
+          itf_total_requested = net_itf_funding + admin_overhead;
+        } else if (mode === 2) {
+          total_project_cost = amount;
+          industry_sponsorship = total_project_cost * sponsorship_rate;
+          itf_total_requested = total_project_cost - industry_sponsorship;
+          net_itf_funding = itf_total_requested / (1 + admin_rate);
+          admin_overhead = net_itf_funding * admin_rate;
+          pure_rd_cost = total_project_cost - admin_overhead;
+        } else if (mode === 3) {
+          itf_total_requested = amount;
+          net_itf_funding = itf_total_requested / (1 + admin_rate);
+          admin_overhead = net_itf_funding * admin_rate;
+          total_project_cost = itf_total_requested / (1 - sponsorship_rate);
+          industry_sponsorship = total_project_cost * sponsorship_rate;
+          pure_rd_cost = total_project_cost - admin_overhead;
+        } else {
+          return null;
+        }
+
+        return {
+          "1. Pure R&D Cost (C)": pure_rd_cost,
+          "2. Total Project Cost (T)": total_project_cost,
+          "3. Industry Sponsorship (S)": industry_sponsorship,
+          "4. ITF Pure R&D Funding (F_net)": net_itf_funding,
+          "5. Administrative Overhead (A)": admin_overhead,
+          "6. Total ITF Requested": itf_total_requested
+        };
+      }
+
+      // UI interaction
+      function calculate() {
+        const mode = parseInt(document.getElementById('mode').value);
+        const amount = parseFloat(document.getElementById('amount').value);
+        let sponsorRate = parseFloat(document.getElementById('sponsor').value);
+        let adminRate = parseFloat(document.getElementById('admin').value);
+
+        if (isNaN(amount) || amount <= 0) {
+          alert('Please enter a valid base amount (greater than 0).');
+          return;
+        }
+        if (isNaN(sponsorRate) || sponsorRate < 0) sponsorRate = 0;
+        if (isNaN(adminRate) || adminRate < 0) adminRate = 0;
+
+        const s = sponsorRate / 100;
+        const a = adminRate / 100;
+
+        const result = calculate_itf_dynamic(mode, amount, s, a);
+        if (!result) {
+          alert('Invalid mode. Please select 1, 2, or 3.');
+          return;
+        }
+
+        const fmt = (num) => {
+          return '$ ' + num.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+        };
+
+        const keys = [
+          '1. Pure R&D Cost (C)',
+          '2. Total Project Cost (T)',
+          '3. Industry Sponsorship (S)',
+          '4. ITF Pure R&D Funding (F_net)',
+          '5. Administrative Overhead (A)',
+          '6. Total ITF Requested'
+        ];
+        for (let i = 0; i < keys.length; i++) {
+          const val = result[keys[i]];
+          document.getElementById('res' + (i+1)).innerHTML = fmt(val);
+        }
+
+        document.getElementById('rateInfo').innerHTML =
+          `Current parameters: Sponsorship ${sponsorRate}% · Admin Rate ${adminRate}%` +
+          (mode === 1 ? ' (Mode 1: Known Pure R&D)' :
+           mode === 2 ? ' (Mode 2: Known Total Cost)' :
+           ' (Mode 3: Known ITF Requested)');
+
+        document.getElementById('result').classList.add('show');
+      }
+
+      // Auto‑calculate on page load
+      window.onload = function() {
+        calculate();
+      };
+    </script>
   </body>
 </html>
