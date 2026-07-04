@@ -6,16 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr. PAN Fei's personal webpage</title>
 
-<style>
+
+	  <style>
 /* ---------- 极简紧凑：虚线框紧贴内容 ---------- */
 .calc-container {
   border: 1px dashed #333;
-  padding: 8px 12px;        /* 虚线框内边距缩到最小 */
+  padding: 8px 12px;
   margin: 6px 0;
   max-width: 100%;
   box-sizing: border-box;
 }
 
+/* 大部分元素继承页面字体 */
 .calc-container,
 .calc-container * {
   font-size: inherit;
@@ -30,17 +32,17 @@
 
 .calc-container h2 {
   font-weight: 600;
-  margin: 0 0 2px 0;        /* 标题下方不留空 */
+  margin: 0 0 2px 0;
 }
 .calc-container .sub {
   color: #555;
-  margin-bottom: 8px;       /* 副标题下方缩小 */
+  margin-bottom: 8px;
   padding-bottom: 4px;
   border-bottom: 1px solid #eee;
 }
 
 .calc-container .field {
-  margin-bottom: 6px;       /* 字段间距缩小 */
+  margin-bottom: 6px;
 }
 .calc-container label {
   font-weight: 500;
@@ -51,7 +53,7 @@
   display: flex;
   align-items: center;
   border: 1px solid #ccc;
-  padding: 0 8px;           /* 输入框内边距缩小 */
+  padding: 0 8px;
   background: #fafafa;
 }
 .calc-container .input-row:focus-within {
@@ -65,11 +67,15 @@
 .calc-container .input-row input,
 .calc-container .input-row select {
   width: 100%;
-  padding: 4px 0;           /* 输入框高度减小 */
+  padding: 4px 0;
   border: none;
   background: transparent;
   outline: none;
   font: inherit;
+}
+/* 确保 select 也应用 sans-serif（会被上面的 .calc-container select 覆盖） */
+.calc-container .input-row select {
+  font-family: sans-serif;
 }
 .calc-container .input-row input[type="number"] {
   -moz-appearance: textfield;
@@ -87,21 +93,21 @@
 
 .calc-container .btn {
   width: 100%;
-  padding: 6px;             /* 按钮变扁 */
+  padding: 6px;
   background: #f0f0f0;
   border: 1px solid #aaa;
-  font: inherit;
   font-weight: 600;
   cursor: pointer;
   margin-top: 6px;
+  font-family: sans-serif; /* 显式声明，确保生效 */
 }
 .calc-container .btn:hover {
   background: #e0e0e0;
 }
 
 .calc-container .result-box {
-  margin-top: 8px;          /* 结果区域上方间距缩小 */
-  padding: 6px 0;           /* 内部间距缩小 */
+  margin-top: 8px;
+  padding: 6px 0;
   border-top: 1px solid #eee;
   display: none;
 }
@@ -109,7 +115,7 @@
 .calc-container .result-item {
   display: flex;
   justify-content: space-between;
-  padding: 2px 0;           /* 每行间距缩小 */
+  padding: 2px 0;
   border-bottom: 1px dotted #ddd;
 }
 .calc-container .result-item:last-child { border-bottom: none; }
@@ -123,12 +129,13 @@
   color: #c00;
 }
 .calc-container .footnote {
-  margin-top: 4px;          /* 脚注上方间距缩到最小 */
+  margin-top: 4px;
   color: #666;
   text-align: center;
   font-size: 0.9em;
 }
 </style>
+	  
   </head>
 
   <body>
