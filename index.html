@@ -170,80 +170,80 @@
     </ul>
 
     <!-- ============ 新增 Tools 分区，内含 ITF 计算器 ============ -->
-    <h2>Tools</h2>
-    <div class="calc-container">
-      <h2>ITF Project Budget Calculator</h2>
-      <div class="sub">Dynamic calculation based on three modes &bull; Adjustable sponsorship &amp; admin rates</div>
+    <!-- <h2>Tools</h2> -->
+    <!-- <div class="calc-container"> -->
+      <!-- <h2>ITF Project Budget Calculator</h2> -->
+      <!-- <div class="sub">Dynamic calculation based on three modes &bull; Adjustable sponsorship &amp; admin rates</div> -->
 
-      <!-- 输入区 -->
-      <div class="field">
-        <label for="mode">Mode</label>
-        <div class="input-row">
-          <span>Mode</span>
-          <select id="mode">
-            <option value="1">Mode 1: Known Pure R&amp;D Cost (C)</option>
-            <option value="2">Mode 2: Known Total Project Cost (T)</option>
-            <option value="3">Mode 3: Known ITF Total Requested</option>
-          </select>
-        </div>
-      </div>
+      <!-- <!-- 输入区 --> -->
+      <!-- <div class="field"> -->
+        <!-- <label for="mode">Mode</label> -->
+        <!-- <div class="input-row"> -->
+          <!-- <span>Mode</span> -->
+          <!-- <select id="mode"> -->
+            <!-- <option value="1">Mode 1: Known Pure R&amp;D Cost (C)</option> -->
+            <!-- <option value="2">Mode 2: Known Total Project Cost (T)</option> -->
+            <!-- <option value="3">Mode 3: Known ITF Total Requested</option> -->
+          <!-- </select> -->
+        <!-- </div> -->
+      <!-- </div> -->
 
-      <div class="field">
-        <label for="amount">Base Amount</label>
-        <div class="input-row">
-          <span>$</span>
-          <input type="number" id="amount" placeholder="Enter amount" step="0.01" value="3010000">
-        </div>
-        <div class="hint">Corresponds to the selected mode</div>
-      </div>
+      <!-- <div class="field"> -->
+        <!-- <label for="amount">Base Amount</label> -->
+        <!-- <div class="input-row"> -->
+          <!-- <span>$</span> -->
+          <!-- <input type="number" id="amount" placeholder="Enter amount" step="0.01" value="3010000"> -->
+        <!-- </div> -->
+        <!-- <div class="hint">Corresponds to the selected mode</div> -->
+      <!-- </div> -->
 
-      <div class="field">
-        <label for="sponsor">Industry Sponsorship Rate (%)</label>
-        <div class="input-row">
-          <span>%</span>
-          <input type="number" id="sponsor" placeholder="e.g. 10" step="0.1" value="10">
-        </div>
-      </div>
+      <!-- <div class="field"> -->
+        <!-- <label for="sponsor">Industry Sponsorship Rate (%)</label> -->
+        <!-- <div class="input-row"> -->
+          <!-- <span>%</span> -->
+          <!-- <input type="number" id="sponsor" placeholder="e.g. 10" step="0.1" value="10"> -->
+        <!-- </div> -->
+      <!-- </div> -->
 
-      <div class="field">
-        <label for="admin">Administrative Overhead Rate (%)</label>
-        <div class="input-row">
-          <span>%</span>
-          <input type="number" id="admin" placeholder="e.g. 15" step="0.1" value="15">
-        </div>
-      </div>
+      <!-- <div class="field"> -->
+        <!-- <label for="admin">Administrative Overhead Rate (%)</label> -->
+        <!-- <div class="input-row"> -->
+          <!-- <span>%</span> -->
+          <!-- <input type="number" id="admin" placeholder="e.g. 15" step="0.1" value="15"> -->
+        <!-- </div> -->
+      <!-- </div> -->
 
-      <button class="btn" onclick="calculate()">Calculate Budget</button>
+      <!-- <button class="btn" onclick="calculate()">Calculate Budget</button> -->
 
-      <!-- 结果区 -->
-      <div id="result" class="result-box">
-        <div class="result-item">
-          <span class="label">1. Pure R&amp;D Cost (C)</span>
-          <span class="value" id="res1">--</span>
-        </div>
-        <div class="result-item">
-          <span class="label">2. Total Project Cost (T)</span>
-          <span class="value" id="res2">--</span>
-        </div>
-        <div class="result-item">
-          <span class="label">3. Industry Sponsorship (S)</span>
-          <span class="value" id="res3">--</span>
-        </div>
-        <div class="result-item">
-          <span class="label">4. ITF Pure R&amp;D Funding (F_net)</span>
-          <span class="value" id="res4">--</span>
-        </div>
-        <div class="result-item">
-          <span class="label">5. Administrative Overhead (A)</span>
-          <span class="value" id="res5">--</span>
-        </div>
-        <div class="result-item">
-          <span class="label">6. Total ITF Requested</span>
-          <span class="value highlight" id="res6">--</span>
-        </div>
-        <div class="footnote" id="rateInfo">Current parameters: Sponsorship 10% · Admin Rate 15%</div>
-      </div>
-    </div>
+      <!-- <!-- 结果区 --> -->
+      <!-- <div id="result" class="result-box"> -->
+        <!-- <div class="result-item"> -->
+          <!-- <span class="label">1. Pure R&amp;D Cost (C)</span> -->
+          <!-- <span class="value" id="res1">--</span> -->
+        <!-- </div> -->
+        <!-- <div class="result-item"> -->
+          <!-- <span class="label">2. Total Project Cost (T)</span> -->
+          <!-- <span class="value" id="res2">--</span> -->
+        <!-- </div> -->
+        <!-- <div class="result-item"> -->
+          <!-- <span class="label">3. Industry Sponsorship (S)</span> -->
+          <!-- <span class="value" id="res3">--</span> -->
+        <!-- </div> -->
+        <!-- <div class="result-item"> -->
+          <!-- <span class="label">4. ITF Pure R&amp;D Funding (F_net)</span> -->
+          <!-- <span class="value" id="res4">--</span> -->
+        <!-- </div> -->
+        <!-- <div class="result-item"> -->
+          <!-- <span class="label">5. Administrative Overhead (A)</span> -->
+          <!-- <span class="value" id="res5">--</span> -->
+        <!-- </div> -->
+        <!-- <div class="result-item"> -->
+          <!-- <span class="label">6. Total ITF Requested</span> -->
+          <!-- <span class="value highlight" id="res6">--</span> -->
+        <!-- </div> -->
+        <!-- <div class="footnote" id="rateInfo">Current parameters: Sponsorship 10% · Admin Rate 15%</div> -->
+      <!-- </div> -->
+    <!-- </div> -->
 
     <h2>Contact Information</h2> Email: fei.pan@LN.edu.hk <br>Tel: +852 2616 8526</br>
     <p>Feel free to reach out with any questions or inquiries.</p>
